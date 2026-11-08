@@ -1,6 +1,6 @@
 # Can a small local model stand in for ORCA-bench's judge?
 
-[ORCA-bench](https://github.com/ORCA-bench/ORCA-bench) scores an agent's root-cause report with an LLM judge (GPT-5.4 by default). I wanted to know whether the judge can run on a free local model, and what goes wrong if you try. This repo has the script, the raw results, and what I found. The code changes that came out of it are in [ORCA-bench PR: run the judge on any OpenAI-compatible endpoint](https://github.com/ORCA-bench/ORCA-bench/pulls?q=is%3Apr+author%3AMohith26).
+[ORCA-bench](https://github.com/ORCA-bench/ORCA-bench) scores an agent's root-cause report with an LLM judge (GPT-5.4 by default). I wanted to know whether the judge can run on a free local model, and what goes wrong if you try. This repo has the script, the raw results, and what I found. The code changes that came out of it are in [ORCA-bench PR #59](https://github.com/ORCA-bench/ORCA-bench/pull/59).
 
 ## Setup
 
